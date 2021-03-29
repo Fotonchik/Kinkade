@@ -9,13 +9,13 @@
 <h1><a href="/">Добро пожаловать!</a></h1>
 </header>
     {% if user.is_authenticated %}
-    <p>Hi {{ user.username }}!</p>
+    <p>Здравствуйте {{ user.username }}!</p>
     <p><a href="{% url 'logout' %}">logout</a></p>
     {%else%}
     <p>Вы не зарегистрированы</p>
     <a href="{%url 'login'%}">login</a>
     
-    {% endif %}
+{% endif %}
 {% block content %}
 {% endblock content %}
 </body>

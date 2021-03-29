@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\posts",
+    "\\templates"
   ],
+  "SelectedNode": "\\templates\\home.html",
   "PreviewInSolutionExplorer": false
 }
